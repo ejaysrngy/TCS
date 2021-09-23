@@ -1,5 +1,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #efe4c8;
+    color: #9e2e2d;
+}
+
+#description {
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
 }
 
 h1 {
@@ -9,7 +18,7 @@ h1 {
 }
 
 hr {
-    border: 5px solid black;
+    border: 5px solid #9e2e2d;
     border-radius: 10px;
     margin: auto;
     width: 500px;
@@ -30,6 +39,15 @@ img {
 #name {
     font-size: 32px;
 }
+
+.navbar {
+    color: #9e2e2d;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
 
 #PT {
     margin: 1px;
