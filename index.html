@@ -12,22 +12,15 @@
 
     <link rel="icon" href="favicon.ico">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div id="navbar">
-        <ul>
-            <li> About Me </li>
-            <li> Skills </li>
-        </ul>
-    </div>
-
     <h1> About Me </h1>
 
-    <div>
+    <div id="firstblock">
         <table id="intro">
             <tr>
-                <td><img src="EJAY_ASO5.jpg"
+                <td><img id="me" src="EJAY_ASO5.jpg"
                       height="250"
                       width="250"> </td>
                 <td id="name"> Ejay Sarangay, PTRP
@@ -37,37 +30,95 @@
         </table>
     </div>
 
-    <hr>
+<!--    <hr>-->
 
-    <div id="description">
-        <h2> Hi! </h2>
-        <p> Ejay here, I am a licensed Physical Therapist,
-        currently studying programming/coding. I've been doing this for about 6 months already
-        , and so far, it's been fun, I get the occasional headaches from all the errors
-        I've been getting but it's worth it! </p>
+    <div id="secondblock">
+
+        <div id="description">
+            <h2> Hi! </h2>
+            <p> Ejay here, I am a licensed Physical Therapist,
+            currently studying programming/coding. I've been doing this for about 6 months already
+            , and so far, it's been fun, I get the occasional headaches from all the errors
+            I've been getting but it's worth it! </p>
+        </div>
+        <br>
+        <div id="educback">
+            <table >
+                <tr> <h2> Educational Background </h2> </tr>
+                <tr>
+                    <td class="level"> Kindergarten: </td>
+                    <td class="school"> Learn and Play </td>
+                </tr>
+                <tr>
+                    <td class="level"> Gradeschool: </td>
+                    <td class="school"> La Salle Greenhills </td>
+                </tr>
+                <tr>
+                    <td class="level"> High School: </td>
+                    <td class="school"> Juan Sumulong Memorial Junior College </td>
+                </tr>
+                <tr>
+                    <td class="level"> College : </td>
+                    <td class="school"> Our Lady of Fatima University (Bachelor of Science - Physical Therapy) </td>
+                </tr>
+            </table>
+        </div>
     </div>
-
-    <div id="table">
-        <table>
-            <tr> <h4> Educational Background: </h4> </tr>
+    <br>
+    <div id="gallery">
+        <table align="center">
+            <tr> <h2> Gallery </h2> </tr>
+            <p align="center"> Some photos that I've taken </p>
             <tr>
-                <td class="level"> Kindergarten: </td>
-                <td class="school"> Learn and Play </td>
+                <td> <img class="galleryphotos" src="IMG_E4035.JPG"> </td>
+                <td> <img class="galleryphotos" src="IMG_E3994.JPG"> </td>
             </tr>
             <tr>
-                <td class="level"> Gradeschool: </td>
-                <td class="school"> La Salle Greenhills </td>
-            </tr>
-            <tr>
-                <td class="level"> High School: </td>
-                <td class="school"> Juan Sumulong Memorial Junior College </td>
-            </tr>
-            <tr>
-                <td class="level"> College : </td>
-                <td class="school"> Our Lady of Fatima University (Bachelor of Science - Physical Therapy) </td>
+                <td> <img class="galleryphotos" src="IMG_4597%20(1).JPG"></td>
+                <td> <img class="galleryphotos" src="IMG_E3411.JPG"></td>
             </tr>
         </table>
     </div>
+
+    <div id="contact">
+        <footer>
+            <table id="intouch-table">
+                <tbody>
+                    <tr>
+                        <th rowspan="3" align="left" scope="rowgroup"> Let's get in touch! </th>
+                        <td>
+                            <form>
+                                <label>
+                                    Email: <input class="input-style" name="email" type="email">
+                                </label>
+
+                                <label>
+                                    Location: <input class="input-style" type="text">
+                                </label>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                <tr>
+                    <th scope="rowgroup" align="left">
+                        <a href="https://www.facebook.com/ejaysrngy/"
+                             class="fa fa-facebook"
+                             target="_blank"></a>
+                        <a href="https://www.instagram.com/srngyejay/"
+                           class="fa fa-instagram"
+                           target="_blank"></a>
+                        <a href="https://github.com/ejaysrngy"
+                           target="_blank">
+                            <img id="github"
+                                 src="25231.png"> </a>
+                    </th>
+                </tr>
+                </tbody>
+            </table>
+        </footer>
+    </div>
+
 
 </body>
 </html>
